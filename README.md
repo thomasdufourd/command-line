@@ -18,7 +18,7 @@ What do the following key strokes?
  * Ctrl + k
 
 ### Exercise 2 - File structure
-> Use the commands `ls`, `cd` and `pwd` and navigate into the file sturcture.
+> Use the commands `ls`, `tree`, `cd` and `pwd` and navigate into the file sturcture.
 
 What does this command do? 
  * `cd` 
@@ -38,4 +38,14 @@ Go to `ex2` folder and create the following structure:
  `src/main/java/tech.weignite/api/services` and  `src/test/java/tech.weignite/api/services`
 
 ### Exercise 3 - File manipulation
-> use `touch` to create empty files  and `rm` to delete them
+> use `touch` to create empty files  and `rm` to delete them. Delete some folders. 
+
+### Exercise 4 - Redirections
+Go to `ex4` folder and do the following: 
+
+Try `cat > test.txt`, type some characters, new lines with `return`, terminate input with `ctrl+d`
+Do you see the difference with `cat >> test.txt` ? 
+
+Try `cat test.txt > new_test.txt` and after `cat test.txt >> new_test.txt`. What is the difference between `>` and `>>`?
+
+Use `|` and `sort` to sort the `unsorted.txt` file.
