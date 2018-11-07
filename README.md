@@ -35,7 +35,7 @@ Can you combine them?
 > Use the command `mkdir` to create folders
 
 Go to `ex2` folder and create the following structure: 
- `src/main/java/tech.weignite/api/services` and  `src/test/java/tech.weignite/api/services`
+ `src/main/java/tech/weignite/api/services` and  `src/test/java/tech/weignite/api/services`
 
 ### Exercise 3 - File manipulation
 > use `touch` to create empty files  and `rm` to delete them. Delete some folders. 
